@@ -1,0 +1,22 @@
+<section class="ui segment">
+#{list items:_members, as:'member'}
+    <section class = "ui inverted segment">
+        <h2 class="ui header">
+            <i class="user circle outline icon"></i>
+        ${_member.firstname} ${_member.lastname}
+        </h2>
+        <h3>
+            <span class="ui inverted blue text">Email: ${_member.email}</span>
+        </h3>
+        <div>
+            <a href="/members/${_member.id}" class="ui icon button">
+                <i class="icon folder open"></i>
+            </a>
+            <a href="/trainerdashboard/deletemember${_member.id}" class="ui icon button">
+                <i class="icon trash"></i>
+            </a>
+        </div>
+    </section>
+    #{/list}
+    <!--{addcomment member: member /}-->
+</section>

@@ -1,0 +1,80 @@
+Assessment(a1):
+  weight: 72.0
+  chest: 40.0
+  thigh: 23.3
+  upperArm: 15.0
+  waist: 32.0
+  hips: 28.0
+Assessment(a2):
+  weight: 72.0
+  chest: 40.0
+  thigh: 23.3
+  upperArm: 15.0
+  waist: 32.0
+  hips: 28.0
+Assessment(a3):
+  weight: 72.0
+  chest: 40.0
+  thigh: 23.3
+  upperArm: 15.0
+  waist: 32.0
+  hips: 28.0
+Assessment(a4):
+  weight: 72.0
+  chest: 40.0
+  thigh: 23.3
+  upperArm: 15.0
+  waist: 32.0
+  hips: 28.0
+Assessment(a5):
+  weight: 72.0
+  chest: 40.0
+  thigh: 23.3
+  upperArm: 15.0
+  waist: 32.0
+  hips: 28.0
+Assessment(a6):
+  weight: 72.0
+  chest: 40.0
+  thigh: 23.3
+  upperArm: 15.0
+  waist: 32.0
+  hips: 28.0
+
+Member(m1):
+  firstname: Homer
+  lastname: Simpson
+  email: homer@simpson.com
+  password: secret
+  address: Mooncoin
+  height: 1.80
+  startingWeight: 91
+  bmi: 26
+  assessments:
+    - a1
+    - a2
+    - a3
+    - a4
+
+
+Member(m2):
+  firstname: Marge
+  lastname: Simpson
+  email: marge@simpson.com
+  password: secret
+  address: Waterford
+  height: 1.65
+  startingWeight: 56
+  bmi: 21
+  assessments:
+    - a5
+    - a6
+
+Trainer(t1):
+  firstname: Joe
+  lastname: Bloggs
+  email: Joe@bloggs.com
+  password: secret
+  members:
+    - m1
+    - m2

@@ -1,0 +1,30 @@
+<div class="ui four column stackable center aligned grid">
+    <div class="middle aligned row">
+        <div class="column">
+            <div class="ui icon header">
+                <i class="user blue circle outline icon"></i>
+            ${_member.firstname} ${_member.lastname}
+                <p> height: ${_member.height} mtr</p>
+            </div>
+        </div>
+        <div class="column">
+            <div class="ui icon header">
+                <i class="tachometer orange alternate  icon"></i>
+               Your Ideal Body Weight
+            ${_member.memberIbw} kg
+            </div>
+        </div>
+        <div class="column">
+            <div class="ui icon header">
+                <i class="right orange heartbeat icon"><span class="ui tiny text">BMI </span></i>
+                ${_member.bmi}
+            </div>
+        </div>
+        <div class="column">
+            <div class="ui icon header">
+                <i class="user blue md icon"></i>
+            ${_member.bmiresult}
+            </div>
+        </div>
+    </div>
+</div>

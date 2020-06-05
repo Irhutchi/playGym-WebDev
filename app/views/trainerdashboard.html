@@ -1,0 +1,31 @@
+#{extends 'main.html' /}
+#{set title:'Dashboard'/}
+
+#{menu id:"trainerdashboard"/}
+
+<section class="ui segment">
+    <div>
+        <h3 class="ui header">
+           Trainer: ${trainer.firstname} ${trainer.lastname}
+        </h3>
+    </div>
+    #{list items:members, as:'member'}
+        <section class = "ui inverted segment">
+            <h2 class="ui header">
+                <i class="user circle outline icon"></i>
+                ${member.firstname} ${member.lastname}
+            </h2>
+            <h3>
+                <span class="ui inverted blue text">Email: ${member.email}</span>
+            </h3>
+            <div>
+                <a href="/members/${member.id}" class="ui icon button">
+                    <i class="icon folder open"></i>
+                </a>
+                <a href="/trainerdashboard/deletemember/${member.id}" class="ui icon button">
+                    <i class="icon trash"></i>
+                </a>
+            </div>
+        </section>
+    #{/list}
+</section>
