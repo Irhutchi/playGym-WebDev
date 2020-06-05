@@ -1,5 +1,4 @@
 import models.Member;
-import models.Trainer;
 import play.jobs.Job;
 import play.jobs.OnApplicationStart;
 import play.test.Fixtures;
@@ -11,8 +10,8 @@ public class Bootstrap extends Job
         if (Member.count() == 0) {
             Fixtures.loadModels("data.yml");
         }
-        if (Trainer.count() ==0) {
+        /*if (Trainer.count() ==0) {
             Fixtures.loadModels("data.yml");
-        }
+        }*/
     }
 }

@@ -2,31 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed41a774-94d5-444c-9816-c9aed33fcb0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/Bootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/Accounts.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/Admin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/controllers/MemberCtrl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/Assessment.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/Trainer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/admin.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/member.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/signup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/tags/addassessment.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/tags/listassessments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/tags/listmembers.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/tags/memberanalytics.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/tags/welcomemenu.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/trainerdashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/conf/data.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Dashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/dashboard.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/start.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/menu.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/system.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Bootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/Bootstrap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/conf/routes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/dependencies.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/dependencies.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/todolist.iws" beforeDir="false" afterPath="$PROJECT_DIR$/todolist.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,6 +116,7 @@
       <workItem from="1591276570056" duration="168000" />
       <workItem from="1591299414773" duration="1343000" />
       <workItem from="1591352434013" duration="4370000" />
+      <workItem from="1591363428918" duration="807000" />
     </task>
     <servers />
   </component>
