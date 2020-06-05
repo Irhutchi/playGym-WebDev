@@ -1,39 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ed41a774-94d5-444c-9816-c9aed33fcb0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/views/tags/listassessments-with-comments.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_listassessments-with-comments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/About.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/About.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Accounts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Dashboard.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/MemberCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/MemberCtrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Start.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Assessment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Assessment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Trainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/member.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/member.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/listassessments.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/listassessments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/memberanalytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/memberanalytics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/conf/routes" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/Bootstrap" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/Bootstrap" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_member.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_member.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_listassessments.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_listassessments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_memberanalytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_memberanalytics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.About" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.About" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Accounts" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Accounts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Admin" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Admin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Dashboard" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Dashboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.MemberCtrl" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.MemberCtrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Start" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Start" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Assessment" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Assessment" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Member" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Member" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Trainer" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Trainer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/classes/Bootstrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/classes/Bootstrap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/todolist.iws" beforeDir="false" afterPath="$PROJECT_DIR$/todolist.iws" afterDir="false" />
-    </list>
+    <list default="true" id="ed41a774-94d5-444c-9816-c9aed33fcb0d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,7 +110,7 @@
       <workItem from="1591299414773" duration="1343000" />
       <workItem from="1591352434013" duration="4370000" />
       <workItem from="1591363428918" duration="1630000" />
-      <workItem from="1591367592617" duration="10706000" />
+      <workItem from="1591367592617" duration="11106000" />
     </task>
     <servers />
   </component>
