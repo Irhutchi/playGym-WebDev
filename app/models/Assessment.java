@@ -6,37 +6,36 @@ import javax.persistence.Entity;
 
 @Entity
 public class Assessment extends Model {
-    public double weight;
-    public double chest;
-    public double thigh;
-    public double upperArm;
-    public double waist;
-    public double hips;
-    public String feedback;
+   public double weight;
+   public double chest;
+   public double thigh;
+   public double upperArm;
+   public double waist;
+   public double hips;
+   public String comment;
 
 
+   public Assessment(double weight, double chest, double thigh, double upperArm, double waist, double hips) {
+      this.weight = weight;
+      this.chest = chest;
+      this.thigh = thigh;
+      this.upperArm = upperArm;
+      this.waist = waist;
+      this.hips = hips;
+   }
 
-    public Assessment(double weight, double chest, double thigh, double upperArm, double waist, double hips)
-    {
-        this.weight = weight;
-        this.chest = chest;
-        this.thigh = thigh;
-        this.upperArm = upperArm;
-        this.waist = waist;
-        this.hips = hips;
-    }
-    public Assessment(String feedback) {
-        this.feedback = feedback;
-    }
+   public Assessment(String comment) {
+      this.comment = comment;
+   }
 
 
-    public double getWeight() {
-        return weight;
-    }
+   public double getWeight() {
+      return weight;
+   }
 
-    public void setWeight(double weight) {
-        this.weight = weight;
-    }
+   public void setWeight(double weight) {
+      this.weight = weight;
+   }
 
 }
 

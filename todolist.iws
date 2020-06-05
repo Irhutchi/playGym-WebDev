@@ -2,12 +2,36 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed41a774-94d5-444c-9816-c9aed33fcb0d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/system.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Bootstrap.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/Bootstrap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/tags/listassessments-with-comments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_listassessments-with-comments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/About.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/About.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Accounts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Admin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Dashboard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/MemberCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/MemberCtrl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Start.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Start.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Assessment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Assessment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Member.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Trainer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/member.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/member.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/listassessments.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/listassessments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/tags/memberanalytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/memberanalytics.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/application.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf/dependencies.yml" beforeDir="false" afterPath="$PROJECT_DIR$/conf/dependencies.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/conf/routes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/Bootstrap" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/Bootstrap" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_member.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_member.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_listassessments.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_listassessments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_memberanalytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_memberanalytics.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.About" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.About" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Accounts" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Accounts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Admin" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Admin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Dashboard" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Dashboard" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.MemberCtrl" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.MemberCtrl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Start" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Start" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Assessment" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Assessment" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Member" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Member" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Trainer" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Trainer" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/classes/Bootstrap.class" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/classes/Bootstrap.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todolist.iws" beforeDir="false" afterPath="$PROJECT_DIR$/todolist.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,12 +71,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Prog Assignment 3/Assignment3_Ver05" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -116,12 +141,16 @@
       <workItem from="1591276570056" duration="168000" />
       <workItem from="1591299414773" duration="1343000" />
       <workItem from="1591352434013" duration="4370000" />
-      <workItem from="1591363428918" duration="807000" />
+      <workItem from="1591363428918" duration="1630000" />
+      <workItem from="1591367592617" duration="10706000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="2213" y="445" key="#Play_Configuration" timestamp="1591220128551">
@@ -164,23 +193,24 @@
     </state>
     <state x="2073" y="219" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1591025365518" />
     <state x="115" y="162" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1587928220929" />
-    <state x="2171" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1591202347143">
+    <state x="2171" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog" timestamp="1591374303441">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
-    <state x="2171" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1591202347143" />
-    <state x="2140" y="233" key="FileChooserDialogImpl" timestamp="1591300137975">
+    <state x="2171" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1591374303441" />
+    <state x="2140" y="233" key="FileChooserDialogImpl" timestamp="1591374397084">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
-    <state x="2140" y="233" key="FileChooserDialogImpl/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1591300137975" />
+    <state x="2140" y="233" key="FileChooserDialogImpl/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1591374397084" />
     <state x="165" y="173" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590066194140" />
     <state x="1920" y="82" key="SettingsEditor" timestamp="1591220620436">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
     <state x="1920" y="82" key="SettingsEditor/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1591220620436" />
     <state x="0" y="61" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1587906672619" />
-    <state x="200" y="190" key="chooseDestDirectoryDialog" timestamp="1589639405771">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state x="2187" y="256" key="chooseDestDirectoryDialog" timestamp="1591367815958">
+      <screen x="1920" y="0" width="2048" height="1112" />
     </state>
+    <state x="2187" y="256" key="chooseDestDirectoryDialog/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1591367815958" />
     <state x="200" y="190" key="chooseDestDirectoryDialog/0.0.1536.824@0.0.1536.824" timestamp="1589639405771" />
     <state x="1997" y="124" width="943" height="759" key="new project wizard" timestamp="1591220336066">
       <screen x="1920" y="0" width="2048" height="1112" />

@@ -21,11 +21,11 @@ GET     /members/{id}                           MemberCtrl.index # member view f
 
 
 GET     /trainerdashboard/deletemember/{id}      MemberCtrl.deleteMember
-POST    /members/{id}/assessment/{assessmentid}  MemberCtrl.addFeedback
+POST    /addcomment/{id}                          MemberCtrl.addComment
 POST    /dashboard/{id}/calculatebmi/{assessmentid}     Dashboard.CalculateBMI
 POST    /dashboard/addassessment                 Dashboard.addAssessment
 GET     /members/{id}/deleteassessment/{assessmentid}    Dashboard.deleteAssessment
-POST    /members/{id}/addcomment                  MemberCtrl.addComment
+#POST    /member/addcomment                       MemberCtrl.addComment
 
 # Ignore favicon requests
 GET     /favicon.ico                            404

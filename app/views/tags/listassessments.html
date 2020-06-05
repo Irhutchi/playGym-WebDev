@@ -1,4 +1,4 @@
-<table class="ui celled table">
+<table class="ui blue celled table">
     <div class="field">
     <thead>
     <tr>
@@ -9,7 +9,7 @@
         <th>Waist</th>
         <th>Hips</th>
         <th>Comment</th>
-        <th>Edit</th>
+        <th>Remove</th>
     </tr>
     </thead>
     <tbody>
@@ -34,7 +34,7 @@
                 ${assessment.hips}
                 </td>
                 <td>
-                ${assessment.feedback}
+                ${assessment.comment}
                 </td>
                 <td>
                     <a href="/members/${_member.id}/deleteassessment/${assessment.id}" class="icon trash">
