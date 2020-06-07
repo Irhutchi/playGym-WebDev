@@ -16,7 +16,8 @@
                 ${member.firstname} ${member.lastname}
             </h2>
             <h3>
-                <span class="ui inverted blue text">Email: ${member.email}</span>
+                <span class="ui inverted blue text">Assessments completed: ${member.assessments.size()}</span><br>
+                <span class="ui inverted small blue text">Email: ${member.email}</span>
             </h3>
             <div>
                 <a href="/members/${member.id}" class="ui icon button">

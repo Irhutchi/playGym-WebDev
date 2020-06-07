@@ -9,32 +9,32 @@
     </header>
     <table class="ui blue table">
         <thead>
-            <tr>
-                <th>ID</th>
-                <th>Email</th>
-                <th>Name</th>
-                <th>Address</th>
-            </tr>
+        <tr>
+            <th>ID</th>
+            <th>Email</th>
+            <th>Name</th>
+            <th>Address</th>
+        </tr>
         </thead>
         <tbody>
         <div class="ui list">
         #{list items:members, as: 'member'}
             <tr>
                 <td>
-                    ${member.id}
+                ${member.id}
                 </td>
                 <td>
-                    ${member.email}
+                ${member.email}
                 </td>
                 <td>
-                    ${member.firstname} ${member.lastname}
+                ${member.firstname} ${member.lastname}
                 </td>
                 <td>
-                    ${member.address}
+                ${member.address}
                 </td>
             </tr>
         #{/list}
         </div>
-    </tbody>
+        </tbody>
     </table>
 </section>

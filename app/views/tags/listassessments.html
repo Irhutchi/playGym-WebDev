@@ -1,49 +1,49 @@
 <table class="ui blue celled table">
     <div class="field">
-    <thead>
-    <tr>
-        <th>Weight</th>
-        <th>Chest</th>
-        <th>Thigh</th>
-        <th>Upper Arm</th>
-        <th>Waist</th>
-        <th>Hips</th>
-        <th>Comment</th>
-        <th>Remove</th>
-    </tr>
-    </thead>
-    <tbody>
+        <thead>
+        <tr>
+            <th>Weight</th>
+            <th>Chest</th>
+            <th>Thigh</th>
+            <th>Upper Arm</th>
+            <th>Waist</th>
+            <th>Hips</th>
+            <th>Comment</th>
+            <th>Remove</th>
+        </tr>
+        </thead>
+        <tbody>
         #{list items:_member.assessments, as: 'assessment'}
-            <tr>
-                <td>
-                ${assessment.weight}
-                </td>
-                <td>
-                ${assessment.chest}
-                </td>
-                <td>
-                ${assessment.thigh}
-                </td>
-                <td>
-                ${assessment.upperArm}
-                </td>
-                <td>
-                ${assessment.waist}
-                </td>
-                <td>
-                ${assessment.hips}
-                </td>
-                <td>
-                ${assessment.comment}
-                </td>
-                <td>
-                    <a href="/members/${_member.id}/deleteassessment/${assessment.id}" class="icon trash">
-                        <i class="icon trash"></i>
-                    </a>
-                </td>
-            </tr>
+        <tr>
+            <td>
+            ${assessment.weight}
+            </td>
+            <td>
+            ${assessment.chest}
+            </td>
+            <td>
+            ${assessment.thigh}
+            </td>
+            <td>
+            ${assessment.upperArm}
+            </td>
+            <td>
+            ${assessment.waist}
+            </td>
+            <td>
+            ${assessment.hips}
+            </td>
+            <td>
+            ${assessment.comment}
+            </td>
+            <td>
+                <a href="/members/${_member.id}/deleteassessment/${assessment.id}" class="icon trash">
+                    <i class="icon trash"></i>
+                </a>
+            </td>
+        </tr>
         #{/list}
-       </tbody>
+        </tbody>
     </div>
 </table>
 

@@ -24,11 +24,13 @@ public class Accounts extends Controller {
    public static void authenticate(String email, String password) {
       Logger.info("Attempting to authenticate with " + email + ":" + password);
       Trainer trainer = Trainer.findByEmail(email);
-      Member member = Member.findByEmail(email); // find Member in DB
+      Member member = Member.findByEmail(email); // find Member by email in DB
+      //if member is found and password matched authentication successful
       if ((member != null) && (member.checkPassword(password) == true)) {
          Logger.info("Authentication successful");
          session.put("logged_in_Memberid", member.id);
          redirect("/dashboard");
+         //if trainer is found and password matches authentication successful
       } else if ((trainer != null) && (trainer.checkPassword(password) == true)) {
          Logger.info("Authentication successful");
          session.put("logged_in_Trainerid", trainer.id);

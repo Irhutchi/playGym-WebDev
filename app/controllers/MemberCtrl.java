@@ -32,33 +32,12 @@ public class MemberCtrl extends Controller {
       redirect("/trainerdashboard");
    }
 
-   /*public void addComment(Long id, String comment)
-   {
-       Logger.info("Trainer comment posting ");
-       //Assessment assessment = Assessment.findById(id);
-       Assessment assessment = new Assessment(comment);
-       assessment.save();
-       Trainer trainer = Accounts.getLoggedInTrainer();
-       Member member = Member.findById(id);
-       List<Assessment> assessments = member.assessments;
-       //render("/member.html", trainer, member, assessments);
-       redirect("/member");
-   }*/
-   public static void addComment(String comment, Long id) {
-      Logger.info("Adding a Comment" + comment);
-      Assessment assessment = Assessment.findById(id);
-      assessment.comment = comment;
+   public static void addComment(Long id, Long assessmentid, String comment) {
+      Member member = Member.findById(id);
+      Assessment assessment = Assessment.findById(assessmentid);
+      assessment.setComment(comment);
       assessment.save();
-      redirect("/trainerdashboard");
+      Logger.info("Adding a Comment" + comment);
+      render("member.html", member);
    }
-
-
-    /*public static void addComment(String feedback) {
-        Member member = Accounts.getLoggedInMember();
-        Assessment assessment = new Assessment(feedback);
-        member.assessments.add(assessment);
-        member.save();
-        redirect ("/member");
-    }*/
-
 }

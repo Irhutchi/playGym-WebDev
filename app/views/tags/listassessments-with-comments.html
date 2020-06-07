@@ -1,17 +1,17 @@
 #{list items:_member.assessments, as: 'assessment'}
 <table class="ui celled table">
     <div class="field">
-            <thead>
-            <tr>
-                <th>Weight</th>
-                <th>Chest</th>
-                <th>Thigh</th>
-                <th>Upper Arm</th>
-                <th>Waist</th>
-                <th>Hips</th>
-                <th>Comment</th>
-                <th>Remove</th>
-            </tr>
+        <thead>
+        <tr>
+            <th>Weight</th>
+            <th>Chest</th>
+            <th>Thigh</th>
+            <th>Upper Arm</th>
+            <th>Waist</th>
+            <th>Hips</th>
+            <th>Comment</th>
+            <th>Remove</th>
+        </tr>
         </thead>
         <tbody>
         <tr>
@@ -44,11 +44,12 @@
         </tr>
         </tbody>
     </div>
-    </table>
-    <form class="ui secondary inverted charcoal segment form" action="/addcomment/${assessment.id}" method="POST">
-        <div class="field">
-            <input placeholder="Insert Comment Here" type="text" name="comment">
-        </div>
-        <button class="ui blue submit button">Update</button>
-    </form>
+</table>
+<form class="ui secondary inverted charcoal segment form" action="/members/${_member.id}/addcomment/${assessment.id}"
+      method="POST">
+    <div class="field">
+        <input placeholder="Insert Comment Here" type="text" name="comment">
+    </div>
+    <button class="ui blue submit button">Update</button>
+</form>
 #{/list}

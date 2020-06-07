@@ -17,7 +17,6 @@ public class Admin extends Controller {
       render("admin.html", members, assessment, trainers);
    }
 
-
    public static void deleteMember(Long id) {
       Member member = Member.findById(id);
       Logger.info("Removing" + member.firstname + member.lastname);
