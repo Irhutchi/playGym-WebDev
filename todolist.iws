@@ -3,44 +3,28 @@
   <component name="ChangeListManager">
     <list default="true" id="ed41a774-94d5-444c-9816-c9aed33fcb0d" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/app/controllers/Accounts.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Accounts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/Admin.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Admin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/MemberCtrl.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/MemberCtrl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Assessment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Assessment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/controllers/Dashboard.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/Dashboard.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/models/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Trainer.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Trainer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/addassessment.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/addassessment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/listassessments-with-comments.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/listassessments-with-comments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/member.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/member.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/signup.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/signup.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/start.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/start.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/views/tags/listassessments.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/listassessments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/listmembers.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/listmembers.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/mainpanel.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/mainpanel.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/memberanalytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/memberanalytics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/tags/menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/tags/menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/trainerdashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/trainerdashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/conf/application.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf/routes" beforeDir="false" afterPath="$PROJECT_DIR$/conf/routes" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_admin.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_admin.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_login.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_main.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_main.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_addassessment.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_addassessment.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_listassessments-with-comments.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_listassessments-with-comments.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_member.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_member.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_start.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_start.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_listassessments.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_listassessments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_memberanalytics.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_memberanalytics.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_menu.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_tags_menu.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_trainerdashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/_app_views_trainerdashboard.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Accounts" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Accounts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Admin" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Admin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.MemberCtrl" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.MemberCtrl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Assessment" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Assessment" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Dashboard" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/controllers.Dashboard" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Member" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Member" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Trainer" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/bytecode/DEV/models.Trainer" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/classes/controllers/Accounts.class" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/classes/controllers/Accounts.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/classes/controllers/Admin.class" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/classes/controllers/Admin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/classes/controllers/MemberCtrl.class" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/classes/controllers/MemberCtrl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/classes/models/Assessment.class" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/classes/models/Assessment.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/classes/models/Member.class" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/classes/models/Member.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/classes/models/Trainer.class" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/classes/models/Trainer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/todolist.iws" beforeDir="false" afterPath="$PROJECT_DIR$/todolist.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +144,9 @@
       <workItem from="1591471598155" duration="1585000" />
       <workItem from="1591473237661" duration="630000" />
       <workItem from="1591477225074" duration="1735000" />
-      <workItem from="1591538428508" duration="276000" />
+      <workItem from="1591538428508" duration="937000" />
+      <workItem from="1591823591998" duration="5203000" />
+      <workItem from="1591857515098" duration="3067000" />
     </task>
     <servers />
   </component>
@@ -215,10 +201,10 @@
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
     <state x="2171" y="303" key="#com.intellij.refactoring.typeMigration.ui.FailedConversionsDialog/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1591374303441" />
-    <state x="2140" y="233" key="FileChooserDialogImpl" timestamp="1591452565009">
+    <state x="2140" y="233" key="FileChooserDialogImpl" timestamp="1591539868401">
       <screen x="1920" y="0" width="2048" height="1112" />
     </state>
-    <state x="2140" y="233" key="FileChooserDialogImpl/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1591452565009" />
+    <state x="2140" y="233" key="FileChooserDialogImpl/0.0.1536.824/1920.0.2048.1112@1920.0.2048.1112" timestamp="1591539868401" />
     <state x="165" y="173" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1590066194140" />
     <state x="1920" y="82" key="SettingsEditor" timestamp="1591220620436">
       <screen x="1920" y="0" width="2048" height="1112" />

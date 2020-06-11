@@ -1,4 +1,4 @@
-#{extends 'main.html' /}
+#{extends 'main.html' /} <!-- dashboard inherits main.html template -->
 #{set title:'Dashboard' /}
 
 #{menu id:"dashboard"/}
@@ -7,5 +7,5 @@
 <section class="ui segment">
  #{memberanalytics member: member /}
  #{addassessment member: member/}
- #{listassessments member: member /}
+ #{listassessments member: member /} <!-- partial tag passing the member object to this partial -->
 </section>

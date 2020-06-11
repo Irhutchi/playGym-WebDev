@@ -18,7 +18,7 @@ public class Accounts extends Controller {
       Logger.info("Registering new user " + email);
       Member member = new Member(firstname, lastname, email, password, address, height, startingWeight);
       member.save();
-      redirect("/");
+      redirect("/");  // route back to start index
    }
 
    public static void authenticate(String email, String password) {
@@ -40,7 +40,7 @@ public class Accounts extends Controller {
          redirect("/login");
       }
    }
-
+      //Read the session object, and locate the member id
    public static Member getLoggedInMember() {
       Member member = null;
       if (session.contains("logged_in_Memberid")) {

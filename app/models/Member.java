@@ -10,7 +10,8 @@ import java.text.DecimalFormat;
 import java.util.ArrayList;
 import java.util.List;
 /**
- * The Member class stores details about the member
+ * The Member model stores details about the member
+ * and also contains the methods to determine body metrics
  */
 @Entity
 public class Member extends Model {
@@ -25,6 +26,9 @@ public class Member extends Model {
    public String bmiresult;
    public String memberIbw;
 
+   /**
+    * One To Many Relationship - member can have many assessments
+    */
    @OneToMany(cascade = CascadeType.ALL)
    // tracking and managing each members assessments
    public List<Assessment> assessments = new ArrayList<Assessment>();
@@ -92,13 +96,13 @@ public class Member extends Model {
     * Men: Ideal Body Weight (kg) = 50 kg + 2.3 kg per inch over 5 feet.
     * Women: Ideal Body Weight (kg) = 45.5 kg + 2.3 kg per inch over 5 feet.
     */
-   //public void isIdealBodyWeight() {
+   public void isIdealBodyWeight() {
       /* creating instance of DecimalFormat #.00 is to
        * have 2 digits after decimal point in our output string
        */
-      /*DecimalFormat df = new DecimalFormat("#.00");
-      Member member = Accounts.getLoggedInMember();
-      double inches = (member.height * 39.77); //converting height parameter from metric to imperial
+      DecimalFormat df = new DecimalFormat("#.00");
+      //Member member = Accounts.getLoggedInMember();
+      double inches = (height * 39.77); //converting height parameter from metric to imperial
       double fiveFeet = 60;      //5ft = 60inches
       double idealBodyWeight;
       if ((inches) < fiveFeet) {
@@ -107,18 +111,18 @@ public class Member extends Model {
       idealBodyWeight = toTwoDecimalPlaces(((48 + (inches-fiveFeet)) * 2.3));
       //converting ibw to two digits after decimal point and passing it to memberIbw
       this.memberIbw = df.format(idealBodyWeight);
-   }*/
+   }
 
-   public void isIdealBodyWeight() {
+   //public void isIdealBodyWeight() {
    /* creating instance of DecimalFormat #.00 is to
     * have 2 digits after decimal point in our output string
     */
-      DecimalFormat df = new DecimalFormat("#.00");
+     /* DecimalFormat df = new DecimalFormat("#.00");
       double idealWeight;
       Assessment assessment = assessments.get(assessments.size() - 1);
       idealWeight = 22 * (height * height);
       this.memberIbw = df.format(idealWeight);
-   }
+   }*/
 
    public static Member findByEmail(String email) {
       return find("email", email).first();

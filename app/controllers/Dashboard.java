@@ -9,18 +9,17 @@ import play.mvc.Controller;
 import java.util.List;
 
 public class Dashboard extends Controller {
-
-
+   //retrieve member and their assessments and send to dashboard
    public static void index() {
       Logger.info("Rendering Member Dashboard");
       Member member = Accounts.getLoggedInMember();
       List<Assessment> assessments = member.assessments;
-      member.calculateBmiResult();
-      member.isIdealBodyWeight();
-      member.calculateMemberBMI();
+      member.calculateBmiResult(); // compute BMI result for all members
+      member.isIdealBodyWeight(); // compute IBW result for all members
+      member.calculateMemberBMI(); // compute bmi category result for all members
       render("dashboard.html", member, assessments);
    }
-
+   //retrieve trainer and send to trainerdashboard
    public static void trainerIndex() {
       Logger.info("Rendering trainer dashboard");
       Trainer trainer = Accounts.getLoggedInTrainer();
@@ -29,7 +28,7 @@ public class Dashboard extends Controller {
          member.isIdealBodyWeight();
          member.calculateBmiResult();
          member.calculateMemberBMI();
-      }
+      } //send the trainer and members to view
       render("trainerdashboard.html", trainer, members);
    }
 
@@ -42,14 +41,14 @@ public class Dashboard extends Controller {
    }
 
    public static void deleteAssessment(Long id, Long assessmentid) {
-      Member member = Member.findById(id);
-      Assessment assessment = Assessment.findById(assessmentid);
+      Member member = Member.findById(id);                        //find the member
+      Assessment assessment = Assessment.findById(assessmentid);  //find the assessment
       Logger.info("Removing" + assessment.weight + assessment.chest + assessment.thigh
               + assessment.upperArm + assessment.waist + assessment.hips);
       //Removing member assessment from member assessments collection & delete from the database
       member.assessments.remove(assessment);
       member.save();  //after removing the assessment associated with the member, save.
       assessment.delete(); //finally delete the assessment completely
-      render("member.html", member);
+      render("member.html", member); //send the member to view
    }
 }
